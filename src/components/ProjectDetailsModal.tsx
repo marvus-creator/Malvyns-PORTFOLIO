@@ -97,7 +97,7 @@ const detailsData: Record<string, ProjectDetailContent> = {
     software: 'Laravel (PHP), React, MySQL',
     duration: 'In Development · 2026',
     client: 'Fintech Venture',
-    link: 'https://github.com/marvus-creator',
+    link: 'https://github.com/marvus-creator/Imbuto',
     images: projectImages.Imbuto,
   },
 };
