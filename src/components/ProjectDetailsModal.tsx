@@ -31,7 +31,7 @@ const detailsData: Record<string, ProjectDetailContent> = {
     software: 'TypeScript, Node.js, Turborepo, Docker, SMS/USSD',
     duration: 'Solo Build · 2026',
     client: 'Flagship Personal Venture',
-    link: 'https://github.com/marvus-creator',
+    link: 'https://github.com/marvus-creator/GAIA',
     images: projectImages.GAIA,
   },
   'AgriConnect-RW': {
@@ -42,7 +42,7 @@ const detailsData: Record<string, ProjectDetailContent> = {
     software: 'PHP, MySQL, JavaScript, Mobile Money (MoMo), USSD',
     duration: 'Shipped · 2026',
     client: 'Agri-Commerce Venture',
-    link: 'https://github.com/marvus-creator',
+    link: 'https://github.com/marvus-creator/AgriConnect-RW',
     images: projectImages['AgriConnect-RW'],
   },
   TERRA: {
