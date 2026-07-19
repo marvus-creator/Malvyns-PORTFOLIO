@@ -21,7 +21,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
     setIsSubmitting(true);
     const subject = encodeURIComponent(`Portfolio inquiry from ${name}`);
     const body = encodeURIComponent(`${message}\n\nFrom: ${name}\nEmail: ${email}`);
-    window.location.href = `mailto:andagijimana2020@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:malvyn304@gmail.com?subject=${subject}&body=${body}`;
     setTimeout(() => {
       setIsSubmitting(false);
       setIsSuccess(true);

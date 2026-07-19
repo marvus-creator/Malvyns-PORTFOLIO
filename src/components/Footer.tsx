@@ -45,6 +45,14 @@ export const Footer: React.FC<FooterProps> = ({ onContactClick }) => {
                 Inquire Now
               </button>
             </FadeIn>
+            <FadeIn delay={0.3} y={15} duration={0.8} className="mt-1">
+              <a
+                href="mailto:malvyn304@gmail.com"
+                className="text-sm tracking-wider opacity-60 hover:opacity-100 transition-opacity"
+              >
+                malvyn304@gmail.com
+              </a>
+            </FadeIn>
           </div>
 
           {/* Scroll to Top Button */}
