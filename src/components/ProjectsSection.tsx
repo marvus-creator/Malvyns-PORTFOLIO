@@ -64,7 +64,7 @@ const projectsList: ProjectData[] = [
     id: '07',
     name: 'Imbuto',
     category: 'Agri-Fintech',
-    tech: ['Laravel', 'React', 'MySQL'],
+    tech: ['React', 'TypeScript', 'Recharts'],
     images: { col1_1: projectImages.Imbuto[0], col1_2: projectImages.Imbuto[1], col2: projectImages.Imbuto[2] },
   },
 ];

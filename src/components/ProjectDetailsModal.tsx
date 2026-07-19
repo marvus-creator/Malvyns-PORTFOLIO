@@ -93,8 +93,8 @@ const detailsData: Record<string, ProjectDetailContent> = {
     title: 'Imbuto',
     subtitle: 'Agri-Fintech Credit Platform for Farmers',
     description:
-      'A farmer credit platform that turns agricultural data into access to finance: loan applications, farmer credit profiles, and repayment tracking, with a lender-side admin. Built with a Laravel backend and a React front end, and designed to plug into TERRA’s satellite credit scores as its underwriting signal.',
-    software: 'Laravel (PHP), React, MySQL',
+      'Imbuto ("seed") turns everyday farm activity — sales, cooperative deliveries, mobile-money patterns — into a transparent, explainable credit score that unlocks input financing before planting season. One platform, seven purpose-built workspaces: farmer, lender, cooperative manager, field agent, buyer, support, and admin each get their own dashboard, from score trends and logging streaks to offer pipelines and portfolio analytics.',
+    software: 'React, TypeScript, Vite, Tailwind CSS, Recharts',
     duration: 'In Development · 2026',
     client: 'Fintech Venture',
     link: 'https://github.com/marvus-creator/Imbuto',
