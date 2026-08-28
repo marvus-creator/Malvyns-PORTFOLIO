@@ -22,7 +22,7 @@ const projectsList: ProjectData[] = [
     id: '01',
     name: 'GAIA',
     category: 'Flagship · Agri-Intelligence OS',
-    tech: ['TypeScript', 'Node.js', 'Turborepo', 'Docker'],
+    tech: ['React', 'TypeScript', 'NestJS', 'PostGIS'],
     images: { col1_1: projectImages.GAIA[0], col1_2: projectImages.GAIA[1], col2: projectImages.GAIA[2] },
   },
   {

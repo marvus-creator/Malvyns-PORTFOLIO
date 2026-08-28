@@ -27,8 +27,8 @@ const detailsData: Record<string, ProjectDetailContent> = {
     title: 'GAIA',
     subtitle: 'Agri-Intelligence Operating System for Rwanda',
     description:
-      'My flagship platform: an agricultural intelligence operating system that unifies five of my systems — satellite credit scoring (TERRA), real-time collaborative mapping (ATLAS), disaster early warning (SENTINEL), crop disease diagnosis (KANOPI), and farmer finance (Imbuto) — into one product. Farmers reach it through the web, mobile, and SMS/USSD, so it works even on feature phones with no internet. It ships with a marketplace, cooperative savings pools, and a Mission Control dashboard for operations.',
-    software: 'TypeScript, Node.js, Turborepo, Docker, SMS/USSD',
+      'My flagship platform: an agricultural intelligence operating system that unifies five of my systems — satellite credit scoring (TERRA), real-time collaborative mapping (ATLAS), disaster early warning (SENTINEL), crop disease diagnosis (KANOPI), and farmer finance (Imbuto) — into one product. Farmers reach it through the web, mobile, and SMS/USSD, so it works even on feature phones with no internet. It ships with a marketplace, cooperative savings pools, and a Mission Control dashboard for operations. The 2026 web renewal added a full design system, a command palette, a live English/Kinyarwanda toggle, an animated 300–850 credit gauge, and a guided presenter tour that adapts to farmer, lender, and government personas.',
+    software: 'TypeScript, React, NestJS, PostGIS, MapLibre, Turborepo, Docker, SMS/USSD',
     duration: 'Solo Build · 2026',
     client: 'Flagship Personal Venture',
     link: 'https://github.com/marvus-creator/GAIA',
