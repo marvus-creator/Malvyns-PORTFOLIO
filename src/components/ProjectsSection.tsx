@@ -36,7 +36,7 @@ const projectsList: ProjectData[] = [
     id: '03',
     name: 'TERRA',
     category: 'Satellite Credit Scoring',
-    tech: ['Python', 'React', 'NDVI', 'ML'],
+    tech: ['Python', 'React', 'NDVI', 'Leaflet'],
     images: { col1_1: projectImages.TERRA[0], col1_2: projectImages.TERRA[1], col2: projectImages.TERRA[2] },
   },
   {
@@ -64,7 +64,7 @@ const projectsList: ProjectData[] = [
     id: '07',
     name: 'Imbuto',
     category: 'Agri-Fintech',
-    tech: ['React', 'TypeScript', 'Recharts'],
+    tech: ['React', 'TypeScript', 'Tailwind', 'Recharts'],
     images: { col1_1: projectImages.Imbuto[0], col1_2: projectImages.Imbuto[1], col2: projectImages.Imbuto[2] },
   },
 ];

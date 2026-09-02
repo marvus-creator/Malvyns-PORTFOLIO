@@ -49,8 +49,8 @@ const detailsData: Record<string, ProjectDetailContent> = {
     title: 'TERRA',
     subtitle: 'Satellite Credit Scoring for Smallholder Farmers',
     description:
-      'TERRA scores farmer creditworthiness from space. It analyzes satellite imagery over a farmer’s plots — vegetation indices like NDVI across growing seasons — to build an alternative credit score, unlocking loans for smallholder farmers who have no collateral or formal financial history. Shipped as v1 and later integrated as the credit engine inside GAIA.',
-    software: 'Python, Remote Sensing (NDVI), Machine Learning, React',
+      'TERRA scores farmer creditworthiness from space. It analyzes satellite imagery over a farmer’s plots — vegetation indices like NDVI across growing seasons — to build an alternative credit score, unlocking loans for smallholder farmers who have no collateral or formal financial history. Shipped as v1 and later integrated as the credit engine inside GAIA. The 2026 web renewal gave it a full product face: an editorial cream-and-olive design system, a three-step farm register wizard, an NDVI living map, a lender view built for loan committees, an animated 300–850 score gauge with a step-by-step score story, a guided tour, and a command palette.',
+    software: 'Python, FastAPI, Sentinel-2 NDVI, React, TypeScript, Leaflet',
     duration: 'Shipped v1 · 2026',
     client: 'Open Source',
     link: 'https://github.com/marvus-creator/TERRA',
@@ -60,7 +60,7 @@ const detailsData: Record<string, ProjectDetailContent> = {
     title: 'ATLAS',
     subtitle: 'Figma for Maps — Real-Time Collaborative Mapping',
     description:
-      'A multiplayer mapping studio where teams sketch, annotate, and plan over live maps together, with every cursor and edit synced in real time through CRDTs (Yjs). Built for planners, NGOs, and field teams who need to work on geography the way designers collaborate in Figma. Shipped as v1 and powering the mapping layer of GAIA.',
+      'A multiplayer mapping studio where teams sketch, annotate, and plan over live maps together, with every cursor and edit synced in real time through CRDTs (Yjs). Built for planners, NGOs, and field teams who need to work on geography the way designers collaborate in Figma. Shipped as v1 and powering the mapping layer of GAIA. The 2026 renewal rebuilt the product around the live editor — a crisp design-tool shell with inspector, layers, comments, minimap, measuring, and basemap switching — plus guided tours and a command palette, verified end-to-end with live multiplayer cursors.',
     software: 'Node.js, Yjs (CRDTs), React, WebSockets',
     duration: 'Shipped v1 · 2026',
     client: 'Open Source',
@@ -71,7 +71,7 @@ const detailsData: Record<string, ProjectDetailContent> = {
     title: 'SENTINEL',
     subtitle: '3D Digital-Twin Early-Warning System for Rwanda',
     description:
-      'A disaster early-warning platform that renders Rwanda as an interactive 3D digital twin and overlays flood and landslide risk, so responders can see danger before it strikes. Terrain, weather signals, and risk models come together in a deck.gl-powered 3D scene. Shipped as v1 and feeding the early-warning alerts inside GAIA.',
+      'A disaster early-warning platform that renders Rwanda as an interactive 3D digital twin and overlays flood and landslide risk, so responders can see danger before it strikes. Terrain, weather signals, and risk models come together in a deck.gl-powered 3D scene. Shipped as v1 and feeding the early-warning alerts inside GAIA. The 2026 renewal turned it into a full navy ops room: a replay of the May 2023 Western Province floods, a ranked district risk board, an alert composer drafting English/Kinyarwanda SMS, printable situation briefings, a guided tour, and a command palette.',
     software: 'Python, deck.gl, React, GIS',
     duration: 'Shipped v1 · 2026',
     client: 'Open Source',
@@ -82,7 +82,7 @@ const detailsData: Record<string, ProjectDetailContent> = {
     title: 'KANOPI',
     subtitle: 'On-Device Crop Disease Diagnosis from Leaf Photos',
     description:
-      'Point a phone camera at a sick leaf and get a diagnosis in seconds — fully on-device. KANOPI runs a compressed vision model in the browser with ONNX Runtime, so it keeps working offline in the field, then gives farmers treatment guidance in plain language. Shipped as v1 and integrated as the crop-health brain of GAIA.',
+      'Point a phone camera at a sick leaf and get a diagnosis in seconds — fully on-device. KANOPI runs a compressed vision model in the browser with ONNX Runtime, so it keeps working offline in the field, then gives farmers treatment guidance in plain language. Shipped as v1 and integrated as the crop-health brain of GAIA. The 2026 renewal wrapped the model in a warm botanical clinic — a diagnosis flow with confidence rings and same-day treatment steps, a searchable disease library, a seasonal field guide with a disease-pressure heatmap, offline caching, a guided tour, and a command palette.',
     software: 'Python, ONNX Runtime, Computer Vision, React',
     duration: 'Shipped v1 · 2026',
     client: 'Open Source',
@@ -93,9 +93,9 @@ const detailsData: Record<string, ProjectDetailContent> = {
     title: 'Imbuto',
     subtitle: 'Agri-Fintech Credit Platform for Farmers',
     description:
-      'Imbuto ("seed") turns everyday farm activity — sales, cooperative deliveries, mobile-money patterns — into a transparent, explainable credit score that unlocks input financing before planting season. One platform, seven purpose-built workspaces: farmer, lender, cooperative manager, field agent, buyer, support, and admin each get their own dashboard, from score trends and logging streaks to offer pipelines and portfolio analytics.',
+      'Imbuto ("seed") turns everyday farm activity — sales, cooperative deliveries, mobile-money patterns — into a transparent, explainable credit score that unlocks input financing before planting season. One platform, seven purpose-built workspaces: farmer, lender, cooperative manager, field agent, buyer, support, and admin each get their own dashboard, from score trends and logging streaks to offer pipelines and portfolio analytics. The 2026 renewal completed all seven workspaces — 30+ screens with a guided presenter tour, a command palette, live demo actions, and an explainable score engine — shipped as a single-file build on GitHub Pages.',
     software: 'React, TypeScript, Vite, Tailwind CSS, Recharts',
-    duration: 'In Development · 2026',
+    duration: 'Shipped · 2026',
     client: 'Fintech Venture',
     link: 'https://github.com/marvus-creator/Imbuto',
     images: projectImages.Imbuto,
