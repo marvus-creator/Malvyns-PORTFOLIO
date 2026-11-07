@@ -34,6 +34,9 @@ import tem3 from '../assets/projects/tembera-3.jpg';
 import rwa1 from '../assets/projects/rwasport-1.jpg';
 import rwa2 from '../assets/projects/rwasport-2.jpg';
 import rwa3 from '../assets/projects/rwasport-3.jpg';
+import its1 from '../assets/projects/itshoes-1.jpg';
+import its2 from '../assets/projects/itshoes-2.jpg';
+import its3 from '../assets/projects/itshoes-3.jpg';
 
 export type DoorSlug = 'full-stack' | 'systems' | 'ai' | 'embedded' | 'projects';
 
@@ -422,6 +425,30 @@ export const projects: Project[] = [
     stack: ['React', 'Express', 'SQLite'],
     images: [],
     repo: 'https://github.com/marvus-creator/PeaceQuest',
+  },
+  {
+    slug: 'in-their-shoes',
+    name: 'In Their Shoes',
+    headline: 'Live the same moment as the other person.',
+    kind: 'Learning platform',
+    year: '2026',
+    status: 'Built',
+    tone: '#2f7a6e',
+    doors: ['projects'],
+    problem:
+      'Students judge each other fast: the groupmate who shows up late, the classmate who laughs during your talk, the new kid who does not answer. Lessons about empathy rarely let them feel the other side.',
+    approach:
+      'A social and emotional learning platform built around one-minute stories. You react to a moment at school, judge the other person, then the screen flips and you live the same moment as them, hearing your own words land. Then you go back and choose again. There are no scores, and nothing leaves the device.',
+    role: 'Solo build: the story engine, SVG characters and scenes, accounts, and the classroom platform.',
+    features: [
+      'Three stories that switch perspective mid-scene',
+      'Empathy journal of what you thought versus what was true',
+      'Daily feelings check-in with a guided breathing exercise',
+      'Classroom sign-in with hashed PINs and a teacher lesson guide',
+    ],
+    stack: ['JavaScript', 'HTML', 'CSS', 'SVG', 'Web Crypto', 'localStorage'],
+    images: [its1, its2, its3],
+    repo: 'https://github.com/marvus-creator/InTheirShoes',
   },
 ];
 
