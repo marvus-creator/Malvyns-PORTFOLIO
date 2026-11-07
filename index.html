@@ -2,14 +2,51 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Malvyn -- Software Developer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Nkusi Malvyn: Software Developer, Kigali</title>
+    <meta name="description" content="Nkusi Malvyn is a software developer from Kigali, Rwanda, building full-stack platforms, satellite credit scoring, real-time maps, on-device AI and IoT systems. Walk the corridor and open a door." />
+    <meta name="author" content="Nkusi Malvyn" />
+    <meta name="theme-color" content="#eee8dd" />
+    <script>
+      try {
+        if (localStorage.getItem('nm-theme') === 'dark') {
+          document.documentElement.classList.add('dark');
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#15161a');
+        }
+      } catch (e) {}
+    </script>
+    <link rel="canonical" href="https://nkusi-malvyn.vercel.app/" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Nkusi Malvyn" />
+    <meta property="og:title" content="Nkusi Malvyn: Software Developer, Kigali" />
+    <meta property="og:description" content="Five doors, one developer. Full-stack platforms, systems, AI and IoT, built in Kigali." />
+    <meta property="og:url" content="https://nkusi-malvyn.vercel.app/" />
+    <meta property="og:image" content="https://nkusi-malvyn.vercel.app/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Nkusi Malvyn: Software Developer, Kigali" />
+    <meta name="twitter:description" content="Five doors, one developer. Full-stack platforms, systems, AI and IoT, built in Kigali." />
+    <meta name="twitter:image" content="https://nkusi-malvyn.vercel.app/og.jpg" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nkusi Malvyn",
+        "jobTitle": "Software Developer",
+        "address": { "@type": "PostalAddress", "addressLocality": "Kigali", "addressCountry": "RW" },
+        "email": "mailto:malvyn304@gmail.com",
+        "url": "https://nkusi-malvyn.vercel.app/",
+        "sameAs": ["https://github.com/marvus-creator", "https://www.linkedin.com/in/nkusi-malvyn-bb218b3a6"]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <p style="padding:2rem;font-family:system-ui">Nkusi Malvyn, software developer in Kigali. This site needs JavaScript. Email malvyn304@gmail.com or visit github.com/marvus-creator.</p>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
